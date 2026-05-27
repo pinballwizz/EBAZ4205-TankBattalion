@@ -2,7 +2,7 @@ Tank Battalion Arcade for the EBAZ-4205 ZYNQ-7010 FPGA Board. Pinballwiz.org 202
 Code from Nick Stone.
 
 Notes:
-Setup for keyboard controls in Upright mode (5 = Coin) (1 = Start P1) (2 = Start P2) (LCtrl = Fire) (Arrow Keys = Move D or L or R)
+Setup for keyboard controls in Upright mode (5 = Coin) (1 = Start P1) (2 = Start P2) (LCtrl = Fire) (Arrow Keys = Move Up or Down or Left or Right)
 Consult the Docs Folder for Information regarding peripheral connections and schematics.
 
 Build:
@@ -14,4 +14,3 @@ Build:
 * Compile the project updating filepaths to source files as necessary.
 * If not using Zynq Arcade Platform connect JTAG Programmer and program EBAZ4205 Board.
 * If using Zynq Arcade (see the github repo) copy bitstream file to MicroSD Card and sys reset EBAZ4205 Adapter board to load.
-
